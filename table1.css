@@ -1,0 +1,42 @@
+body {
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+}
+
+div {
+    width: 60%;
+    height: 600px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 20px 20pxS;
+    background-color: #25bbb0;
+}
+
+h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+    padding: 20px 30px;
+    text-align: center;
+    color: #ddfffc;
+}
+
+table {
+    width: 100%;
+    
+}
+
+table th, td {
+    width: 30%;
+    height: 60px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddfffc;
+    font-size: 20px;
+    color: #ddfffc;
+    text-align: left;
+    vertical-align: middle;
+}
+
+tr:hover {
+    background-color: #66d4b7;
+    cursor: pointer;
+}
+
