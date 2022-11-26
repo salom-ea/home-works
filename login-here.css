@@ -1,0 +1,54 @@
+body {
+    background-color: #6a62d2;
+}
+
+div {
+    width: 25%;
+    height: 300px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    padding: 25px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+h1 {
+    color: #454545;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 80%;
+    height: 40px;
+    margin: 10px;
+    padding-left: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e5e8ed;
+}
+.checkbox-confirm {
+    width: 15px;
+    height: 15px;
+}  
+
+label {
+    color: #9ea3ae;
+    font-size: 15px;
+}
+
+button {
+    width: 85%;
+    height: 40px;
+    margin:  10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #746bde;
+}
+
+p {
+    color: #9196a2;
+    font-size: 15px;
+    margin: 10px;
+    margin-left: 30%;
+}
