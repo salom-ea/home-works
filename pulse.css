@@ -1,0 +1,48 @@
+body {
+    background-color: white;
+}
+
+div {
+    width: 40px;
+    height: 40px;
+    background-color: green;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    padding: 30px 30px;
+    animation: color-change 2s 0s infinite alternate ease-in-out both;
+}
+
+
+@keyframes color-change {
+    0% {
+        width: 60px;
+        height: 60px;
+        background-color: green;
+        border-radius: 50%;
+
+    }
+    25% {
+        width: 100px;
+        height: 100px;
+        background-color: yellow;
+        border-radius: 40%;
+
+    }
+    75% {
+        width: 200px;
+        height: 200px;
+        background-color: orange;
+        border-radius: 30%;
+
+    }
+    100% {
+        width: 400px;
+        height: 400px;
+        background-color: red;
+        border-radius: 5px;
+
+    }
+}
+
